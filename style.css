@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: gray;
+    color: #ddd;
+}
+
+h1 strong{
+    font-size: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+    .container .row {
+        height: 180vh;
+    }
+}
+
+@media (max-width: 767px) {
+    .container .row {
+        height: 200vh;
+    }
+}
+
+.row {
+    height: 100vh;
+}
+
+.col-xl-2 .content {
+    height: 30%;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.col-xl-4 {
+    border-top: 0px !important;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+}
+
+.col-md-6 .content{
+    height: 30%;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.col-12 {
+
+}
